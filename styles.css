@@ -3,15 +3,21 @@
   padding:0px;
 }
 
+/*Is this a comment? This is a comment.*/
+
+/* This corresponds to the section of the .html file that has 'id=octocat' */
 #octocat {
   display: block;
-  width:384px;
+/*  width:384px; */
+  width:768px;
+/* Note: this will scale the picture accordingly - be careful of image stretching  */
   margin: 50px auto;
 }
 
+/* Corresponds to the reserved tag for paragraphs  */
 p {
   display: block;
-  width: 400px;
+  width: 800px;
   margin: 50px auto;
   font: 30px Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;
 }
